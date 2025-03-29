@@ -1,0 +1,48 @@
+header{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+/*barra navegação no topo do site*/
+.topnav {
+    overflow: hidden;
+    background-color: orange;
+    align-items: center;
+    text-align: center;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: #f2f2f2;
+}
+
+.column {
+    float: left;
+}
+
+.column.side{
+    width: 25%;
+    text-align: center;
+}
+
+.column.middle{
+    width: 50%;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 600px){
+    .column {
+        width: 100%;
+    }
+}
